@@ -68,6 +68,11 @@ body {
     margin-bottom: 30px;
 }
 
+.blog-strip {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
 .comic-panel {
     background-color: var(--comic-white);
     border: 3px solid var(--comic-black);
@@ -81,8 +86,67 @@ body {
     transform: translate(-5px, -5px);
 }
 
+.wide-panel {
+    grid-column: span 2;
+}
+
+.tall-panel {
+    grid-row: span 2;
+}
+
+.square-panel {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
 .panel-content {
     text-align: center;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.post-preview {
+    background-color: var(--comic-white);
+    border: 2px solid var(--comic-black);
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.post-preview:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 0 var(--comic-black);
+}
+
+.post-preview h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.post-preview h4 a {
+    color: var(--comic-black);
+    text-decoration: none;
+}
+
+.post-preview h4 a:hover {
+    color: var(--comic-red);
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    margin: 15px 0;
+    font-size: 1em;
+    line-height: 1.6;
 }
 
 .comic-button {
@@ -143,16 +207,6 @@ body {
     text-shadow: 2px 2px 0 var(--comic-black);
 }
 
-.post-meta {
-    color: #666;
-    margin-top: 10px;
-}
-
-.post-content {
-    font-size: 1.1em;
-    line-height: 1.8;
-}
-
 .post-navigation {
     display: flex;
     justify-content: space-between;
@@ -168,28 +222,20 @@ body {
     margin-top: 30px;
 }
 
-.blog-strip {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+.comic-form {
+    margin-top: 15px;
 }
 
-.wide-panel {
-    grid-column: span 2;
+.form-group {
+    margin-bottom: 10px;
 }
 
-.tall-panel {
-    grid-row: span 2;
-}
-
-.square-panel {
-    grid-column: span 1;
-    grid-row: span 1;
-}
-
-.post-excerpt {
-    margin: 15px 0;
-    font-size: 1.1em;
-    line-height: 1.6;
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid var(--comic-black);
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
 }
 
 /* Responsive Design */
@@ -202,7 +248,7 @@ body {
     .comic-strip {
         grid-template-columns: 1fr;
     }
-    
+
     .blog-strip {
         grid-template-columns: 1fr;
     }
@@ -212,5 +258,9 @@ body {
     .square-panel {
         grid-column: span 1;
         grid-row: span 1;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
     }
 } 
