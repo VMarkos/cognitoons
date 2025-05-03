@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="comic-strip">
+    <div class="comic-panel">
+        <div class="panel-content">
+            <h2>Welcome to My Comic World!</h2>
+            <p>Explore the adventures and stories through these comic panels...</p>
+        </div>
+    </div>
+
+    <div class="comic-panel">
+        <div class="panel-content">
+            <h3>About Me</h3>
+            <p>Discover who I am and what I do...</p>
+            <a href="{{ '/about' | relative_url }}" class="comic-button">Read More</a>
+        </div>
+    </div>
+
+    <div class="comic-panel">
+        <div class="panel-content">
+            <h3>Latest Blog Posts</h3>
+            <ul class="comic-list">
+                {% for post in site.posts limit:3 %}
+                <li>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <a href="{{ '/blog' | relative_url }}" class="comic-button">View All Posts</a>
+        </div>
+    </div>
+
+    <div class="comic-panel">
+        <div class="panel-content">
+            <h3>Get in Touch</h3>
+            <p>Want to collaborate or just say hello?</p>
+            <a href="{{ '/contact' | relative_url }}" class="comic-button">Contact Me</a>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,181 @@
+/* Comic-style CSS */
+:root {
+    --comic-yellow: #FFE600;
+    --comic-red: #FF0000;
+    --comic-blue: #0066FF;
+    --comic-black: #000000;
+    --comic-white: #FFFFFF;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+    background-color: var(--comic-white);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.comic-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comic-header {
+    background-color: var(--comic-yellow);
+    padding: 20px;
+    border: 3px solid var(--comic-black);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 0 var(--comic-black);
+}
+
+.comic-title h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--comic-black);
+}
+
+.comic-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.comic-nav a {
+    text-decoration: none;
+    color: var(--comic-black);
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid var(--comic-black);
+    border-radius: 5px;
+    background-color: var(--comic-white);
+    transition: all 0.3s ease;
+}
+
+.comic-nav a:hover {
+    background-color: var(--comic-red);
+    color: var(--comic-white);
+}
+
+.comic-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.comic-panel {
+    background-color: var(--comic-white);
+    border: 3px solid var(--comic-black);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 0 var(--comic-black);
+    transition: transform 0.3s ease;
+}
+
+.comic-panel:hover {
+    transform: translate(-5px, -5px);
+}
+
+.panel-content {
+    text-align: center;
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--comic-yellow);
+    color: var(--comic-black);
+    text-decoration: none;
+    border: 2px solid var(--comic-black);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.comic-button:hover {
+    background-color: var(--comic-red);
+    color: var(--comic-white);
+}
+
+.comic-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comic-list li {
+    margin: 10px 0;
+}
+
+.comic-list a {
+    color: var(--comic-black);
+    text-decoration: none;
+    border-bottom: 2px dashed var(--comic-black);
+}
+
+.comic-list a:hover {
+    color: var(--comic-red);
+}
+
+.comic-post {
+    background-color: var(--comic-white);
+    border: 3px solid var(--comic-black);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 0 var(--comic-black);
+}
+
+.post-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.post-title {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--comic-black);
+}
+
+.post-meta {
+    color: #666;
+    margin-top: 10px;
+}
+
+.post-content {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.comic-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--comic-yellow);
+    border: 3px solid var(--comic-black);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .comic-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comic-strip {
+        grid-template-columns: 1fr;
+    }
+} 

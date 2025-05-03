@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="comic-post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+            <span class="post-author">by {{ page.author }}</span>
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <div class="post-navigation">
+        {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="comic-button">← Previous Post</a>
+        {% endif %}
+        {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="comic-button">Next Post →</a>
+        {% endif %}
+    </div>
+</article> 

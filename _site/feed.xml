@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-03T17:36:27+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Comic Strip Website</title><subtitle>A comic-strip inspired website built with Jekyll</subtitle><entry><title type="html">Welcome to My Comic World!</title><link href="http://localhost:4000/blog/welcome-to-my-comic-world/" rel="alternate" type="text/html" title="Welcome to My Comic World!" /><published>2024-03-20T00:00:00+02:00</published><updated>2024-03-20T00:00:00+02:00</updated><id>http://localhost:4000/blog/welcome-to-my-comic-world</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-my-comic-world/"><![CDATA[<h1 id="welcome-to-my-comic-world">Welcome to My Comic World!</h1>
+
+<p>Hello and welcome to my new comic-inspired website! I’m thrilled to share this space with you, where creativity meets technology in a fun and engaging way.</p>
+
+<h2 id="what-to-expect">What to Expect</h2>
+
+<p>In this blog, you’ll find:</p>
+
+<ul>
+  <li>Behind-the-scenes looks at my creative process</li>
+  <li>Tips and tricks for comic creation</li>
+  <li>Stories and adventures from my daily life</li>
+  <li>Updates about new projects and collaborations</li>
+</ul>
+
+<h2 id="the-journey-begins">The Journey Begins</h2>
+
+<p>Creating this website has been an exciting adventure. I wanted to combine my love for comics with modern web design, resulting in this unique space where stories come to life.</p>
+
+<p>Stay tuned for more updates and adventures!</p>
+
+<p><img src="/assets/images/comic-panel-example.jpg" alt="Comic Panel Example" /></p>
+
+<h2 id="join-the-adventure">Join the Adventure</h2>
+
+<p>I’d love to hear from you! Feel free to reach out through the contact page or connect with me on social media. Let’s create something amazing together!</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[Welcome to My Comic World!]]></summary></entry></feed>
