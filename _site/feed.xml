@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-03T17:36:27+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Comic Strip Website</title><subtitle>A comic-strip inspired website built with Jekyll</subtitle><entry><title type="html">Welcome to My Comic World!</title><link href="http://localhost:4000/blog/welcome-to-my-comic-world/" rel="alternate" type="text/html" title="Welcome to My Comic World!" /><published>2024-03-20T00:00:00+02:00</published><updated>2024-03-20T00:00:00+02:00</updated><id>http://localhost:4000/blog/welcome-to-my-comic-world</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-my-comic-world/"><![CDATA[<h1 id="welcome-to-my-comic-world">Welcome to My Comic World!</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-03T18:01:31+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Comic Strip Website</title><subtitle>A comic-strip inspired website built with Jekyll</subtitle><entry><title type="html">Character Design: From Sketch to Superhero</title><link href="http://localhost:4000/blog/character-design-tips/" rel="alternate" type="text/html" title="Character Design: From Sketch to Superhero" /><published>2024-03-23T00:00:00+02:00</published><updated>2024-03-23T00:00:00+02:00</updated><id>http://localhost:4000/blog/character-design-tips</id><content type="html" xml:base="http://localhost:4000/blog/character-design-tips/"><![CDATA[<h1 id="character-design-from-sketch-to-superhero">Character Design: From Sketch to Superhero</h1>
+
+<p><img src="/assets/images/character-design.jpg" alt="Character Design Process" /></p>
+
+<p>Creating memorable characters is one of the most important aspects of comic creation. Today, I’ll share my process for bringing characters to life.</p>
+
+<h2 id="step-1-concept-development">Step 1: Concept Development</h2>
+
+<p>Every great character starts with a strong concept:</p>
+
+<ul>
+  <li>Personality traits</li>
+  <li>Backstory</li>
+  <li>Motivations</li>
+  <li>Unique features</li>
+</ul>
+
+<h2 id="step-2-visual-design">Step 2: Visual Design</h2>
+
+<p>The visual design should reflect the character’s personality:</p>
+
+<ul>
+  <li>Silhouette</li>
+  <li>Color scheme</li>
+  <li>Costume design</li>
+  <li>Facial expressions</li>
+</ul>
+
+<h2 id="step-3-refinement">Step 3: Refinement</h2>
+
+<p>This is where the magic happens:</p>
+
+<ul>
+  <li>Multiple iterations</li>
+  <li>Feedback from peers</li>
+  <li>Testing in different poses</li>
+  <li>Final polish</li>
+</ul>
+
+<h2 id="pro-tips">Pro Tips</h2>
+
+<p>Here are some of my favorite character design tips:</p>
+
+<ol>
+  <li>Start with simple shapes</li>
+  <li>Exaggerate key features</li>
+  <li>Make them instantly recognizable</li>
+  <li>Consider how they’ll look in different poses</li>
+</ol>
+
+<h2 id="character-gallery">Character Gallery</h2>
+
+<p><img src="/assets/images/character-sketches.jpg" alt="Character Sketches" /></p>
+
+<p>Remember, great characters are more than just their appearance - they need personality, depth, and a story to tell!</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[Learn the essential steps to create memorable and unique characters for your comics, from initial concept to final design.]]></summary></entry><entry><title type="html">Digital vs Traditional Comics: A Creator’s Perspective</title><link href="http://localhost:4000/blog/digital-vs-traditional-comics/" rel="alternate" type="text/html" title="Digital vs Traditional Comics: A Creator’s Perspective" /><published>2024-03-22T00:00:00+02:00</published><updated>2024-03-22T00:00:00+02:00</updated><id>http://localhost:4000/blog/digital-vs-traditional-comics</id><content type="html" xml:base="http://localhost:4000/blog/digital-vs-traditional-comics/"><![CDATA[<h1 id="digital-vs-traditional-comics-a-creators-perspective">Digital vs Traditional Comics: A Creator’s Perspective</h1>
+
+<p><img src="/assets/images/digital-setup.jpg" alt="Digital Drawing Setup" /></p>
+
+<p>In today’s world, comic creators have more tools at their disposal than ever before. But with great options comes great responsibility - how do we choose between digital and traditional methods?</p>
+
+<h2 id="the-digital-advantage">The Digital Advantage</h2>
+
+<p>Digital tools offer incredible flexibility:</p>
+
+<ul>
+  <li>Undo/redo capabilities</li>
+  <li>Easy color adjustments</li>
+  <li>Quick file sharing</li>
+  <li>No physical storage needed</li>
+</ul>
+
+<h2 id="the-traditional-touch">The Traditional Touch</h2>
+
+<p>There’s something special about traditional methods:</p>
+
+<ul>
+  <li>Unique texture and feel</li>
+  <li>Physical connection to the art</li>
+  <li>No digital distractions</li>
+  <li>One-of-a-kind originals</li>
+</ul>
+
+<h2 id="my-hybrid-approach">My Hybrid Approach</h2>
+
+<p>I’ve found that combining both methods works best for me:</p>
+
+<ol>
+  <li>Initial sketches on paper</li>
+  <li>Digital inking and coloring</li>
+  <li>Final touches with traditional media</li>
+</ol>
+
+<h2 id="finding-your-style">Finding Your Style</h2>
+
+<p>The most important thing is to experiment and find what works for you. Don’t be afraid to mix and match techniques!</p>
+
+<p><img src="/assets/images/traditional-tools.jpg" alt="Traditional Tools" /></p>
+
+<p>Remember, the tools don’t make the artist - it’s how you use them that counts!</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[Exploring the pros and cons of digital and traditional comic creation methods, and how I combine both in my workflow.]]></summary></entry><entry><title type="html">The Art of Comic Storytelling</title><link href="http://localhost:4000/blog/the-art-of-comic-storytelling/" rel="alternate" type="text/html" title="The Art of Comic Storytelling" /><published>2024-03-21T00:00:00+02:00</published><updated>2024-03-21T00:00:00+02:00</updated><id>http://localhost:4000/blog/the-art-of-comic-storytelling</id><content type="html" xml:base="http://localhost:4000/blog/the-art-of-comic-storytelling/"><![CDATA[<h1 id="the-art-of-comic-storytelling">The Art of Comic Storytelling</h1>
+
+<p><img src="/assets/images/comic-creation.jpg" alt="Comic Creation Process" /></p>
+
+<p>Creating comics is more than just drawing pictures and adding text. It’s an art form that combines visual storytelling with narrative techniques to create something truly magical.</p>
+
+<h2 id="the-building-blocks">The Building Blocks</h2>
+
+<p>Every great comic has three essential elements:</p>
+
+<ol>
+  <li><strong>Visual Flow</strong>: How the reader’s eye moves through the panels</li>
+  <li><strong>Character Development</strong>: Creating memorable and relatable characters</li>
+  <li><strong>Pacing</strong>: Controlling the rhythm of the story</li>
+</ol>
+
+<h2 id="tips-for-beginners">Tips for Beginners</h2>
+
+<ul>
+  <li>Start with simple panel layouts</li>
+  <li>Focus on clear, expressive characters</li>
+  <li>Use speech bubbles effectively</li>
+  <li>Don’t be afraid to experiment with different styles</li>
+</ul>
+
+<h2 id="my-favorite-tools">My Favorite Tools</h2>
+
+<p>I’ve been using a combination of traditional and digital tools to create my comics:</p>
+
+<ul>
+  <li>Procreate for digital drawing</li>
+  <li>Manga Studio for panel layouts</li>
+  <li>Traditional ink and paper for initial sketches</li>
+</ul>
+
+<h2 id="the-journey-continues">The Journey Continues</h2>
+
+<p>Every day brings new challenges and opportunities to improve my craft. Stay tuned for more tips and tricks in future posts!</p>
+
+<p><img src="/assets/images/comic-tools.jpg" alt="Comic Tools" /></p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[Discover the secrets behind creating compelling comic narratives that captivate readers and bring stories to life.]]></summary></entry><entry><title type="html">Welcome to My Comic World!</title><link href="http://localhost:4000/blog/welcome-to-my-comic-world/" rel="alternate" type="text/html" title="Welcome to My Comic World!" /><published>2024-03-20T00:00:00+02:00</published><updated>2024-03-20T00:00:00+02:00</updated><id>http://localhost:4000/blog/welcome-to-my-comic-world</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-my-comic-world/"><![CDATA[<h1 id="welcome-to-my-comic-world">Welcome to My Comic World!</h1>
 
 <p>Hello and welcome to my new comic-inspired website! I’m thrilled to share this space with you, where creativity meets technology in a fun and engaging way.</p>
 

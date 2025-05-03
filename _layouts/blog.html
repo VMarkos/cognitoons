@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="comic-strip blog-strip">
+    <div class="comic-panel wide-panel">
+        <div class="panel-content">
+            <h2>Blog Adventures</h2>
+            <p>Dive into my latest stories and creative journeys!</p>
+        </div>
+    </div>
+
+    {% for post in site.posts %}
+    <div class="comic-panel {% cycle 'tall-panel', 'wide-panel', 'square-panel' %}">
+        <div class="panel-content">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="post-meta">
+                <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                <span class="post-author">by {{ post.author }}</span>
+            </div>
+            <div class="post-excerpt">
+                {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+            <a href="{{ post.url | relative_url }}" class="comic-button">Read More</a>
+        </div>
+    </div>
+    {% endfor %}
+</div> 

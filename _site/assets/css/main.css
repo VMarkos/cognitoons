@@ -168,6 +168,30 @@ body {
     margin-top: 30px;
 }
 
+.blog-strip {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.wide-panel {
+    grid-column: span 2;
+}
+
+.tall-panel {
+    grid-row: span 2;
+}
+
+.square-panel {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.post-excerpt {
+    margin: 15px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .comic-nav ul {
@@ -177,5 +201,16 @@ body {
     
     .comic-strip {
         grid-template-columns: 1fr;
+    }
+    
+    .blog-strip {
+        grid-template-columns: 1fr;
+    }
+    
+    .wide-panel,
+    .tall-panel,
+    .square-panel {
+        grid-column: span 1;
+        grid-row: span 1;
     }
 } 
