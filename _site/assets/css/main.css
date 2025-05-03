@@ -21,6 +21,11 @@ body {
     padding: 20px;
 }
 
+.dotted-background {
+    background-image: radial-gradient(circle at 1px 1px, black 1px, transparent 0);
+    background-size: 10px 10px;
+}
+
 .comic-header {
     background-color: var(--comic-yellow);
     padding: 20px;
@@ -152,8 +157,8 @@ body {
 .comic-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--comic-yellow);
-    color: var(--comic-black);
+    background-color: var(--comic-blue);
+    color: var(--comic-white);
     text-decoration: none;
     border: 2px solid var(--comic-black);
     border-radius: 5px;
